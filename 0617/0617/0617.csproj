@@ -102,9 +102,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Checkout.aspx" />
     <Content Include="Default - 複製.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MemberProfile.aspx" />
     <Content Include="picture\snoopy-1.jpg" />
-    <Content Include="加入會員.aspx" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -155,9 +158,6 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="會員登入.aspx" />
-    <Content Include="購物車.aspx" />
-    <Content Include="結帳畫面.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -192,6 +192,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default - 複製.aspx.cs">
       <DependentUpon>Default - 複製.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,12 +206,26 @@
     <Compile Include="Default - 複製.aspx.designer.cs">
       <DependentUpon>Default - 複製.aspx</DependentUpon>
     </Compile>
-    <Compile Include="加入會員.aspx.cs">
-      <DependentUpon>加入會員.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="加入會員.aspx.designer.cs">
-      <DependentUpon>加入會員.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberProfile.aspx.cs">
+      <DependentUpon>MemberProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberProfile.aspx.designer.cs">
+      <DependentUpon>MemberProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -253,27 +274,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="會員登入.aspx.cs">
-      <DependentUpon>會員登入.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="會員登入.aspx.designer.cs">
-      <DependentUpon>會員登入.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="購物車.aspx.cs">
-      <DependentUpon>購物車.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="購物車.aspx.designer.cs">
-      <DependentUpon>購物車.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="結帳畫面.aspx.cs">
-      <DependentUpon>結帳畫面.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="結帳畫面.aspx.designer.cs">
-      <DependentUpon>結帳畫面.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

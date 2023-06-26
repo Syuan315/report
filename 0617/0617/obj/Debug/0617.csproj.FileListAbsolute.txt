@@ -73,3 +73,7 @@ C:\Users\best1\OneDrive\桌面\0617\0617\obj\Debug\0617.csproj.CoreCompileInputs
 C:\Users\best1\OneDrive\桌面\0617\0617\obj\Debug\0617.csproj.CopyComplete
 C:\Users\best1\OneDrive\桌面\0617\0617\obj\Debug\0617.dll
 C:\Users\best1\OneDrive\桌面\0617\0617\obj\Debug\0617.pdb
+C:\Users\best1\OneDrive\桌面\project\0617\0617\obj\Debug\0617.csproj.AssemblyReference.cache
+C:\Users\best1\OneDrive\桌面\project\0617\0617\obj\Debug\0617.csproj.CoreCompileInputs.cache
+C:\Users\best1\OneDrive\桌面\project\0617\0617\obj\Debug\0617.dll
+C:\Users\best1\OneDrive\桌面\project\0617\0617\obj\Debug\0617.pdb

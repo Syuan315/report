@@ -50,9 +50,9 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">首頁</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">關於</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">連絡人</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/會員登入">登入</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/加入會員">註冊</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/購物車">購物車</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Login">登入</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/MemberProfile">註冊</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/ShoppingCart">購物車</a></li>
                     </ul>
                 </div>
             </div>
