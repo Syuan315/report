@@ -1,4 +1,4 @@
-﻿<%@ PageTitle="Login"  Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="_0617.Login" %>
+﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="_0617.Login" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
@@ -23,5 +23,5 @@
         <asp:Button ID="Button1" runat="server" Text="確認" />
         <br />
         
-            </div>
+    </div>
 </asp:Content>

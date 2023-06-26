@@ -1,10 +1,10 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="加入會員.aspx.cs" Inherits="_0617.About" %>
+﻿<%@ Page Title="Default" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_0617.Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
     </main>
 
-        <div class="row">
+    <div class="row">
             <section class="col-2" aria-labelledby="1">
                 <p>
                     hello!hello!hello!hello!hello!
@@ -122,6 +122,5 @@
                     </section>
               </div>
          </section>
-      </div>        
-        
+      </div> 
 </asp:Content>

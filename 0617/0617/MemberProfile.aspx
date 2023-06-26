@@ -9,7 +9,7 @@
             <p>
                 <asp:TextBox ID="TextBox1" runat="server">姓 Last Name</asp:TextBox>
                 <br /><br />
-                <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged">名 First Name</asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server">名 First Name</asp:TextBox>
                 <br /><br />
                 <asp:CheckBox ID="CheckBox1" runat="server" />
                 <asp:Label ID="Label9" runat="server" Text="Label">先生 Gentleman</asp:Label>
